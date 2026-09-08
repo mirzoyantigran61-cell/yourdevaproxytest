@@ -36,12 +36,12 @@ log = logging.getLogger("proxy-panel")
 http = requests.Session()
 
 DEFAULT_SWITCHES = {
-    "Aim Profile": False,
+    "Aim Silent": False,
     "Backjump Preset": False,
     "High Sensi": False,
     "Speed Preset": False,
     "Visual FX": False,
-    "Motion Preset": False,
+    "BYPASS UPDATE": False,
 }
 
 sessions: dict[str, dict] = {}
